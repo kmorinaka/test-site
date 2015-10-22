@@ -73,8 +73,7 @@ end
 
 # GitHub Pages deployment configuration
 activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  # Optional Settings
+  deploy.method = :git
 end
 
   
